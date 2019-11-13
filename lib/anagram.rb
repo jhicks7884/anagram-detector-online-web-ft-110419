@@ -14,3 +14,5 @@ class Anagram
 
   listen = anagrams.new("listen")
   listen.match(%(enlist, google. inlets, banana)
+end
+end
