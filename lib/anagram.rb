@@ -7,13 +7,9 @@ class Anagram
     @word = word
   end
 
-  def match(array_of_words)
-    array_of_words.select do |element|
+  def match(words_array)
+    word_array.select do |word|
     (@word.split("").sort) ==
-    (element.split("").sort)
+    (word.split("").sort)
   end
-
-  listen = anagrams.new("listen")
-  listen.match(%(enlist, google. inlets, banana)
-  end
-end
+  
